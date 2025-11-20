@@ -7,10 +7,6 @@ const products = [
   { id: 6, name: "Standee Akrilik - Blade", priceBuy: 35000, category: "Standee", img: "img/standee_blade.png" },
   { id: 7, name: "Standee Akrilik - Yelan", priceBuy: 30000, category: "Standee", img: "img/standee_yelan.png" },
   { id: 8, name: "Standee Akrilik - Kazuha", priceBuy: 30000, category: "Standee", img: "img/standee_kazuha.png" },
-  { id: 9, name: "Kabel Rol", priceBuy: 30000, category: "Material", img: "img/rolan.jpg" },
-  { id: 10, name: "Kayu Dolken Gelam", priceBuy: 45000, category: "Material", img: "img/dolken.jpg" },
-  { id: 11, name: "Set Perkakas", priceBuy: 50000, category: "Material", img: "img/perkakas.jpg" },
-  { id: 12, name: "Semen 1 sack", priceBuy: 40000, category: "Material", img: "img/semen.jpg" },
   { id: 13, name: "Permen", priceBuy: 500, category: "Manisan", img: "img/permen.jpg" },
   { id: 14, name: "Skincare", priceBuy: 45000, category: "Perawatan", img: "img/skincare.jpg" },
   { id: 15, name: "Gantungan Kunci - Jingliu", priceBuy: 10000, category: "Keychain", img: "img/ganci_jingliu.png" },
@@ -273,4 +269,5 @@ document.getElementById("email-checkout").onclick = () => {
 document.getElementById("ig-checkout").onclick = () => {
   window.open("https://instagram.com/sunaookamii", "_blank");
 };
+
 
